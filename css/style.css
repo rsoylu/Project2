@@ -51,6 +51,10 @@ h1{
   padding: 0 15%;
 }
 
+#gamesimg {
+  border-radius: 20%;
+}
+
 #memesbody{
   background-color: #2d2f33;
   padding: 0% 20% 5% 20%;
@@ -93,5 +97,13 @@ h3#memesfont2{
   font-family: 'Grenze', serif;
   font-size: 150%;
   text-transform: uppercase;
-  
+}
+
+h4#gamestext {
+  color: #ededed;
+}
+
+h2#gamestext2 {
+  color: #ededed;
+  font-family: 'Oswald', sans-serif;
 }
