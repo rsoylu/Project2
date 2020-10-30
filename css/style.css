@@ -1,16 +1,16 @@
 nav ul{
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 5% 0;
   padding: 5%;
-  
 }
 
 nav ul li{
   float: left;
+  
 }
 
 nav ul li a{
-  padding: 20px;
+  padding: 15px 90px 15px 90px;
   font-size: 125%;
   display: block;
   background-color: #303030;
@@ -18,21 +18,15 @@ nav ul li a{
   text-decoration:none;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
-
-  
-  
 }
 
 nav ul li a:hover{
   background-color: #404040;
-  
-  
 }
 
 h1{
-  font-family: Courier, sans-serif;
-  
-  
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 
 p, ul, h2, h3, h4{ 
@@ -41,22 +35,63 @@ p, ul, h2, h3, h4{
 
 h1{
   text-align: center;
-  
 }
 
 #indexbody{
-  
-  background: BurlyWood;
-
-  padding: 5% 20%;
-  
-  
+  background: #5e5850;
+  padding: 0% 20% 5% 20%;
 }
 
 #indeximg{
-  
   border-radius: 60%;
-  padding: 5% 30%;
+  padding: 5% 20%;
+}
+
+#memesimg{
+  padding: 0 15%;
+}
+
+#memesbody{
+  background-color: #2d2f33;
+  padding: 0% 20% 5% 20%;
   
+}
+
+#gamesbody{
+  padding: 0% 20% 5% 20%;
+  background-color: #5e5550;
+}
+
+div#mainindex{
+  float: left;
+  width: 70%;
+  background-color: BurlyWood;
+  margin-bottom: 10%;
+  padding: 10%;
+}
+
+div#mainmemes {
+  float: left;
+  width: 90%;
+  background-color: #e1cfe2;
+  padding: 5%;
+}
+
+div#maingames {
+  float: left;
+  width: 90%;
+  background-color: #1f1f1e;
+  padding: 5%;
+}
+
+p#memesfont{
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 130%;
+}
+
+h3#memesfont2{
+  font-family: 'Grenze', serif;
+  font-size: 150%;
+  text-transform: uppercase;
   
 }
