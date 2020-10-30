@@ -1,1 +1,62 @@
-s
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 5%;
+  
+}
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a{
+  padding: 20px;
+  font-size: 125%;
+  display: block;
+  background-color: #303030;
+  color: white;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+
+  
+  
+}
+
+nav ul li a:hover{
+  background-color: #404040;
+  
+  
+}
+
+h1{
+  font-family: Courier, sans-serif;
+  
+  
+}
+
+p, ul, h2, h3, h4{ 
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  text-align: center;
+  
+}
+
+#indexbody{
+  
+  background: BurlyWood;
+
+  padding: 5% 20%;
+  
+  
+}
+
+#indeximg{
+  
+  border-radius: 60%;
+  padding: 5% 30%;
+  
+  
+}
